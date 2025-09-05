@@ -9,7 +9,7 @@ public class Activity9 {
 	public static void main (String[] args)
 	{
 		List<String> strList = new ArrayList<>();
-		strList.add("Apple");
+		strList.add("Grapes");
 		strList.add("Cherry");
 		strList.add("Papaya");
 		strList.add(1, "Watermelon");
@@ -25,15 +25,15 @@ public class Activity9 {
 			System.out.println(listItr.next());
 		}
 		
-		System.out.println("3rd name is:" + strList.get(2));
+		System.out.println("3rd name is: " + strList.get(2));
 		
-		System.out.println("Does mango exist?" + strList.contains("Mango"));
+		System.out.println("Does mango exist? " + strList.contains("Mango"));
 		
-		System.out.println("Number of elements in list:" + strList.size());	
+		System.out.println("Number of elements in list: " + strList.size());	
 		
 		strList.remove("Papaya");
 		
-		System.out.println("Number of elements in list:" + strList.size());	
+		System.out.println("Number of elements in list: " + strList.size());	
 	}
 
 }
