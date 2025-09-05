@@ -28,5 +28,7 @@ public class Activity10 {
 		System.out.println(numSet);
 		
 		System.out.println("Search for 100? " + numSet.contains(100));
+		
+		System.out.println("Search for 2025? " + numSet.contains(2025));
 	}
 }

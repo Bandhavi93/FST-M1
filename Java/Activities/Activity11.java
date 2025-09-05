@@ -35,6 +35,8 @@ public class Activity11 {
 		
 		System.out.println(colours);
 		
+		colours.remove(1);
 		
+		System.out.println("Size of the Map after removing red colour: " + colours);
 	}
 }
