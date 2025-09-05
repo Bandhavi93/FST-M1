@@ -7,9 +7,10 @@ public class Activity4 {
 	public static void main(String args[]) 
 	{
         int[] numbers = { 4, 3, 2, 10, 12, 1, 5, 6 };
+        System.out.println("Array before sorting: " + Arrays.toString(numbers));
         ascendingSort(numbers);
-        System.out.println("Sorted Array in Ascending Order: ");
-        System.out.println(Arrays.toString(numbers));
+        System.out.println("Array after sorting in Ascending Order: " + Arrays.toString(numbers));
+      
     }
     
     public static void ascendingSort(int array[]) 
