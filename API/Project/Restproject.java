@@ -18,7 +18,7 @@ public class Restproject {
 	RequestSpecification requestSpec;
 	ResponseSpecification responseSpec;
 	int Id;
-	String SSH = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPwW7aRMR7K0JkEFp7tz3JoBOdERZgKdsl1GpWojrvVK" ;
+	String SSH = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFIsxVn8iI0XzRz473mjyDtXaMulLV09eYfoIQRaHVRR" ;
 	
 	
 	// This method runs once before any test methods in the class
@@ -109,3 +109,4 @@ public class Restproject {
 	}
 	
 }
+
