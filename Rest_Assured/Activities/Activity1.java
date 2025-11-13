@@ -35,7 +35,7 @@ public class Activity1 {
 	
 	
 
-	// POST https://petstore.swagger.io/v2/pet
+	// POST 
 	@Test(priority=1)
 	public void postRequestTest()
 	{
@@ -50,7 +50,7 @@ public class Activity1 {
 		//Assertions
 		response.then().spec(responsespec);
 	}
-	// GET https://petstore.swagger.io/v2/pet/{pet Id}
+	// GET 
 	@Test(priority = 2)
 	public void getRequestTest()
 	{
@@ -60,7 +60,7 @@ public class Activity1 {
 		then().log().all().spec(responsespec).body("name", equalTo("Riley"));
 	}
 	
-	// DELETE https://petstore.swagger.io/v2/pet/{pet Id}
+	// DELETE 
 	@Test(priority = 3)
 	public void deleteRequestTest()
 	{
@@ -69,3 +69,4 @@ public class Activity1 {
 		then().statusCode(200);
 	}
 }
+
